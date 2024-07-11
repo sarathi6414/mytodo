@@ -1,0 +1,101 @@
+body {
+    background-color: #7bdc65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+p {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 70%;
+}
+
+.input-group button {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+ol {
+    list-style: decimal;
+    padding-left: 20px;
+    text-align: left;
+}
+
+ol li {
+    padding: 10px;
+    font-size: 1em;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+ol li.completed {
+    text-decoration: line-through;
+    color: #777;
+    background-color: #f9f9f9;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.empty {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.save {
+    background-color: #2ac94f;
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
